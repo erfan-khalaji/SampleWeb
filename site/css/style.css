@@ -1,3 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+/*===================================
+                Home
+===================================*/
+#home {
+    height: 100%;
+}
+
+#home-cover{
+    height: 100%;
+    background-image: url("../img/bg-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
