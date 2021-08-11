@@ -23,9 +23,6 @@ h3 {
 #home-cover {
   height: 100%;
   background-image: url("../img/bg-home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 #home-content-box {
@@ -45,6 +42,16 @@ h3 {
   font-size: 55px;
   font-weight: 500;
   margin: 20px 0px 20px 0px;
+}
+
+/*===================================
+                Parallex (generic)
+===================================*/
+.bg-parallex {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /*===================================
@@ -70,3 +77,25 @@ h3 {
   background-color: #fff;
   color: #41464b;
 }
+
+/*===================================
+                animate
+===================================*/
+
+/*#home-cover,
+#home-heading,
+#home-btn {
+  animation-duration: 5s;
+}
+
+#home-cover {
+  animation-delay: 1s;
+}
+
+#home-heading {
+  animation-delay: 5s;
+}
+
+#home-btn {
+  animation-delay: 1s;
+}*/
